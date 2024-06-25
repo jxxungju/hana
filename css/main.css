@@ -1,0 +1,283 @@
+@charset "UTF-8";
+#wrap{}
+#header{
+    width: 100%;
+    height: 113px;
+    position: absolute;
+    
+}
+.head_inner{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.head_top_menu{
+    height: 48px;
+    
+}
+.head_top_menu ul{
+    
+    text-align: right;
+}
+.head_top_menu ul li{
+    display: inline-block;
+    
+}
+.head_top_menu ul li a{
+    display: block;
+    line-height: 48px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    
+    
+    
+}
+.gnb{
+    height: 65px;
+    
+}
+.logo{
+    float: left;
+    padding: 10px 0;
+}
+.logo a{
+    display: block;
+    width: 112px;
+    height: 45px;
+    background: url(../images/ico-zeus-logo.png)no-repeat;
+    background-position: center top;
+    text-indent: -999999px;
+}
+
+.nav{
+    float:right ;}
+.nav ul{
+    
+}
+.nav ul li{
+    display:inline-block;
+    margin-left: 15px;
+}
+.nav ul li a{
+    display: block;
+    line-height: 65px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    }
+#header:hover{
+    background-color:#fff
+    
+}
+#header:hover .logo a{
+    background-position: center bottom;
+}
+#header:hover .head_top_menu a{
+    color: #888;
+}
+#header:hover .gnb a{
+    color: #333;
+}
+
+/* <!-- container영역 --> */
+
+/* .img_slide 영역 */
+#container{
+
+}
+.img_slide{
+    height: 710px;
+}
+.img_slide a{}
+.img_slide a img{}
+
+/* ZEUS 클래식 여행 영역 */
+.classic{
+    padding-top:80px ;
+    overflow: hidden;
+    background: linear-gradient(#fff 0%, #fff 70%,#eee 70%,#eee 100% );
+}
+.classic h2{
+    text-align: center;
+    font-size: 30px;
+}
+.classic_list{
+    text-align: center;
+}
+.classic_list li{
+    display: inline-block;
+    max-width: 0 10px;
+    }
+.classic_list li a{
+    display: block;
+    padding: 30px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 2px solid #FFF;
+}
+.classic_list li a:hover{
+    border-bottom: 2px solid gray;
+    color: skyblue;
+}
+.clssic_wrap{
+    width: 1200px;
+    
+    
+    margin: 50px auto 0 ;}
+.clssic_wrap ul{
+    
+}
+.clssic_wrap ul li{
+    float: left;
+    width: 384px;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+
+    
+}  
+.clssic_wrap ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}    
+.clssic_wrap ul li a .top{
+    width: 60px;
+    height: 70px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+    
+    
+
+}    
+.clssic_wrap ul li a .top span{
+    font-size: 12px;
+    display: block;
+}    
+
+.clssic_wrap ul li a .c_txt{
+    width: 345px;
+    height: 246px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    left: 50%; top:85%;
+    transform: translateX(-50%);
+    transition: all 1s;
+
+}
+
+
+.clssic_wrap ul li a:hover .c_txt{
+    top: 200px;
+    background-color: #FFF;
+}
+.clssic_wrap ul li a .c_txt h3{
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 10px;
+    font-family: "휴먼체" !important;
+}
+.clssic_wrap ul li a .c_txt p{
+    line-height: 1.7;
+    font-size: 14px;
+    font-family: "궁서" !important;
+    
+}
+.clssic_wrap ul li a .c_txt p.price{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "궁서" !important;
+}
+.clssic_wrap ul li a .c_txt p.price span{
+    font-size: 20px;
+}
+.clssic_wrap ul li a:hover .c_txt h3{
+    color: #333;
+    
+}
+.clssic_wrap ul li a:hover .c_txt p{
+    color: #666;
+    
+}
+.clssic_wrap ul li a:hover .c_txt p.price{
+    color: #000;
+}
+
+.c_wrap_01{
+    background-image: url(../images/classic01.jpg);}
+    
+    
+.c_wrap_02{
+    margin: 0 24px;
+    background-image: url(../images/classic02.jpg);
+    
+    
+}
+.c_wrap_03{
+    background-image:url(../images/classic03.jpg) ;
+    
+}
+
+.s_wrap_01{
+    background-image: url(../images/special01.jpg);}
+.s_wrap_02{
+    background-image: url(../images/special02.jpg);
+margin:0 24px ;}
+.s_wrap_03{
+    background-image: url(../images/special03.jpg);}
+
+    /* 공지사항 영역 */
+    .notice{
+        width: 100%;
+        padding: 50px 0;
+        overflow: hidden;
+    }
+    .notice ul{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .notice ul li{
+        float: left;
+        width: calc(100% / 4);
+        text-align: center;
+        border-right: 1px dotted gray;
+
+    }
+    .notice ul li:last-child{border-right: none !important;}
+    .notice ul li a{
+        
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .notice ul li span{
+        display: block;
+        width: 32px;
+        height: 34px;
+        margin: 5px auto;
+        background-image: url(../images/spr_icn.png);
+        background-position:-204px -253px;
+        text-indent: -999999px;
+
+    }
+    .notice ul li span.notic2{
+        background-position:-234px -253px;
+    }
+    .notice ul li span.notic3{
+        background-position:-270px -253px;
+    }
+    .notice ul li span.notic4{
+        background-position:-300px -253px;
+    }
